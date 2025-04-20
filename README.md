@@ -6,11 +6,10 @@
 
  ## Innehåll
 
- - `svenska-notnamn.ly`
+ - `svenska.ly`
    Svenska notnamn och ackordbeteckningar enligt svensk tradition:
    - `B` istället för `H`
    - `Bb` istället för `B`
-   - Suffix som `ciss`, `diss`, `ass` m.fl.
 
  Filerna är tänkta att användas som moduler du kan inkludera i egna LilyPond-partitur.
 
@@ -19,9 +18,9 @@
  Skapa en egen LilyPond-fil och inkludera dina inställningar:
 
  ```lilypond
- \include "svenska-notnamn.ly"
+ \include "svenska.ly"
 
- \version "2.24.0"
+ \version "2.25.25"
 
  \score {
    <<
@@ -38,17 +37,6 @@
    >>
  }
  ```
-
- ### 📌 Så gör du:
-
- 1. Skapa en ny fil i din `Lilypond`-mapp.
- 2. Döp den till `README.md`.
- 3. Klistra in innehållet ovan.
- 4. Spara.
-
- Gå sedan till **GitHub Desktop**, skriv t.ex. `Lade till README.md` och klicka på **Commit**, sedan **Push origin**.
-
- Klart! Nu kommer den snyggt att visas automatiskt på GitHub-sidan för ditt repo.
 
  ## Exempelfil
 
